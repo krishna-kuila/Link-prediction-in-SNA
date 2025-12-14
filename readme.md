@@ -16,4 +16,12 @@
 `
     myenv\Scripts\activate
 `
-### step 2: 
+### step 2: install all reuired library
+`
+    pip install -r Recommender app\requirements.txt
+`
+
+### step 3: Run the app
+```
+    streamlit run "Recommender app\app.py"
+```
