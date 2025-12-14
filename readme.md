@@ -1,6 +1,6 @@
 ## Recommendation system using graph network
-    we are try to build a system of recommendation by using SNA twitter dataset, where user have follwing, interests(#), features(@).
-    Objective is to make a recommendation system with solving the fold start problem.
+we are try to build a system of recommendation by using SNA twitter dataset, where user have follwing, interests(#), features(@).
+Objective is to make a recommendation system with solving the fold start problem.
 
 ### structure of the file
 ```
