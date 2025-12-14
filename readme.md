@@ -9,19 +9,19 @@
 
 ## how to run the project
 
-### step 1: create a virtual environment & activate it by following commands
+#### step 1: create a virtual environment & activate it by following commands
 `
     python -m venv myenv
 `
 `
     myenv\Scripts\activate
 `
-### step 2: install all reuired library
-``
+#### step 2: install all reuired library
+`
     pip install -r Recommender app\requirements.txt
-``
+`
 
-### step 3: Run the app
-```
+#### step 3: Run the app
+`
     streamlit run "Recommender app\app.py"
-```
+`
