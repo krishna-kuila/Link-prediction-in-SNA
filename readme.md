@@ -10,9 +10,9 @@
 ## how to run the project
 
 ### step 1: create a virtual environment & activate it by following commands
-    ```
+`
         python -m venv myenv
         myenv\Scripts\activate
-    ```
+`
 
 ### step 2: 
