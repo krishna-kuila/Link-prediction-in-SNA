@@ -3,13 +3,13 @@ we are try to build a system of recommendation by using SNA twitter dataset, whe
 Objective is to make a recommendation system with solving the fold start problem.
 
 ### structure of the file
-
-    userid -->  1.circles (user id)
-                2.edges ( connection of user)
-                3.egofeat (user interests mapping)
-                4.feat (user interest)
-                5.featnames (feature names)
-
+`
+userid -->  1.circles (user id)
+            2.edges ( connection of user)
+            3.egofeat (user interests mapping)
+            4.feat (user interest)
+            5.featnames (feature names)
+`
 ### structure of the graph
 
     Nodes --> (user, interest, follwing)
