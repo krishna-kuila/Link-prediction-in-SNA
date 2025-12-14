@@ -1,10 +1,17 @@
-## Recommendation system using grpah network
+## Recommendation system using graph network
+
+### structure of the file
 ```
-    userid -->  1.circles
-                2.edges
-                3.egofeat
-                4.feat
-                5.featnames
+    userid -->  1.circles (user id)
+                2.edges ( connection of user)
+                3.egofeat (user interests mapping)
+                4.feat (user interest)
+                5.featnames (feature names)
+```
+### structure of the graph
+```
+    Nodes --> (user, interest, follwing)
+    edges --> connection between them
 ```
 
 ## how to run the project
@@ -23,5 +30,5 @@
 
 #### step 3: Run the app
 `
-    streamlit run "Recommender app\app.py"
+    streamlit run Recommender app\app.py
 `
